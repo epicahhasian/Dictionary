@@ -1,0 +1,35 @@
+#V=Create a dictionary
+sample_dict = {
+    "name":"Abaan",
+    "age":11,
+    "city":"Reading",
+    
+}
+print(sample_dict)
+print(type(sample_dict))
+#Accessing values in a dictionary
+print (sample_dict["name"])
+#Get the list of keys 
+print(sample_dict.keys())
+#Get the list of values
+print(sample_dict.values())
+#Check if a key exists in a dictionary or not
+if "country" in sample_dict:
+    print(sample_dict["country"])
+else:
+    print("Key does not exist")
+if "city" in sample_dict:
+    print(sample_dict["city"])
+else:
+    print ("Key does not exist")
+#Add a key and value pair to an existing dictionary
+sample_dict["proffession"] = "Student"
+print (sample_dict)
+sample_dict["hobby"] = "Basketball"
+print(sample_dict)
+#Delete a key and value pair
+del(sample_dict["proffession"])
+print(sample_dict)
+#change a value of a dictionary
+sample_dict["city"]="London"
+print (sample_dict)
